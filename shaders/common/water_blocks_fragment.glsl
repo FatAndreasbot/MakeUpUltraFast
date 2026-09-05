@@ -268,11 +268,25 @@ void main() {
         blockColor *= tintColor;
 
         #if defined SHADOW_CASTING && !defined NETHER
+            #if SHADOW_LOCK > 0
+                vec3 offsetVector = vNormal * 0.002;
+                vec3 preSnapPos = vWorldPos + offsetVector;
+                float texelSize = SHADOW_LOCK;
+                vec3 absPos = preSnapPos + cameraPosition;
+                // Redondeo al bloque
+                vec3 snappedAbsolute = floor(absPos * texelSize) / texelSize;
+                snappedAbsolute += 0.5 / texelSize; // Centrar en el texel
+                vec3 final_world_pos = (snappedAbsolute - cameraPosition) + vBias;
+                vec3 shadow_real_pos = get_shadow_pos(final_world_pos);
+            #else
+                vec3 shadow_real_pos = shadowPos;
+            #endif
+
             #if defined COLORED_SHADOW
-                vec3 shadowValue = get_colored_shadow(shadowPos, dither);
+                vec3 shadowValue = get_colored_shadow(shadow_real_pos, dither);
                 shadowValue = mix(shadowValue, vec3(1.0), shadowDiffuse);
             #else
-                float shadowValue = get_shadow(shadowPos, dither);
+                float shadowValue = get_shadow(shadow_real_pos, dither);
                 shadowValue = mix(shadowValue, 1.0, shadowDiffuse);
             #endif
         #else
