@@ -1,0 +1,302 @@
+#Profiles
+############################
+profile.no_effects=Без эффектов
+profile.shadowless_low=Низкий (БТ)
+profile.shadowless_medium=Средний (БТ)
+profile.shadowless_high=Высокий (БТ)
+profile.low=Низкий
+profile.medium=Средний
+profile.high=Высокий
+profile.extremeplus=Высокий (ГР)
+
+profile.comment=Профили "БТ (без теней)" предназначены для слабых устройств и отключают тени. Обычные профили постепенно добавляют тени более высокого качества и более сложные тяжёлые эффекты. Поэкспериментируйте с доступными настройками, чтобы найти лучшую комбинацию для себя.
+
+#About
+#############################
+option.ACERCADE=MakeUp
+option.ACERCADE.comment=Спасибо, что используете этот шейдер! :). Для лучшего качества установите настройки OptiFine в значении "Быстро" или "Детально".
+value.ACERCADE.0=v.9.5e
+
+#Options
+#############################
+option.SHADOW_CASTING=Тени
+
+option.SHADOW_DISTANCE_SLIDER=Дальность теней
+value.SHADOW_DISTANCE_SLIDER.0=Близкая
+value.SHADOW_DISTANCE_SLIDER.1=Средняя
+value.SHADOW_DISTANCE_SLIDER.2=Далёкая
+
+option.SHADOW_QTY_SLIDER=Качество теней
+value.SHADOW_QTY_SLIDER.0=Выкл
+value.SHADOW_QTY_SLIDER.1=Низкое
+value.SHADOW_QTY_SLIDER.2=Среднее
+value.SHADOW_QTY_SLIDER.3=Высокое
+
+option.REFLECTION_SLIDER=Отражения
+value.REFLECTION_SLIDER.0=Выкл
+value.REFLECTION_SLIDER.1=Отзеркаленные
+value.REFLECTION_SLIDER.2=Объёмные
+
+option.SHADOW_TYPE=Тип теней
+value.SHADOW_TYPE.0=Обычные
+value.SHADOW_TYPE.1=Сглаженные
+
+option.SHADOW_BLUR=Интенсивность размытия теней
+
+option.COLORED_SHADOW=Цветные тени
+
+option.VOL_LIGHT=Лучи света
+value.VOL_LIGHT.0=Выкл
+value.VOL_LIGHT.1=По глубине
+value.VOL_LIGHT.2=Объёмные
+
+option.DOF=Глубина резкости
+
+option.DOF_STRENGTH=Сила глубины резкости
+
+option.DOF_SAMPLES_FACTOR=Коэффициент отсчётов глубины резкости
+
+option.AO=Окклюзия окружения
+value.AO.0=Выкл
+value.AO.1=Вкл
+
+option.AOSTEPS=Пары отсчётов окклюзии окружения
+
+option.AO_STRENGTH=Сила окклюзии окружения
+
+option.AA_TYPE=Временная дискретизация
+value.AA_TYPE.0=Выкл
+value.AA_TYPE.1=Шумоподавление
+value.AA_TYPE.2=TAA
+value.AA_TYPE.3=TAA+
+
+option.MOTION_BLUR=Размытие в движении
+option.MOTION_BLUR_STRENGTH=Сила размытия в движении
+option.MOTION_BLUR_SAMPLES=Отсчёты размытия в движении
+
+option.VANILLA_WATER=Вода как в ванилле
+
+option.WATER_TEXTURE=Текстура воды
+value.WATER_TEXTURE.0=Выкл
+value.WATER_TEXTURE.1=Вкл
+
+option.WATER_COLOR_SOURCE=Источник цвета воды
+value.WATER_COLOR_SOURCE.0=Шейдер
+value.WATER_COLOR_SOURCE.1=Ресурспак
+
+option.REFLECTION=Отражения
+value.REFLECTION.0=Выкл
+value.REFLECTION.1=Вкл
+
+option.REFRACTION=Преломление
+value.REFRACTION.0=Выкл
+value.REFRACTION.1=Вкл
+
+option.SSR_TYPE=Тип отражения
+value.SSR_TYPE.0=Отзеркаленный
+value.SSR_TYPE.1=Объёмный
+
+option.SUN_REFLECTION=Отражения солнца и луны
+value.SUN_REFLECTION.0=Выкл
+value.SUN_REFLECTION.1=Вкл
+
+option.CLOUD_REFLECTION=Отражение объёмных облаков
+
+option.WAVING=Колыхание растений
+value.WAVING.0=Выкл
+value.WAVING.1=Вкл
+
+option.CHROMA_ABER=Хроматическая аберрация
+value.CHROMA_ABER.0=Выкл
+value.CHROMA_ABER.1=Вкл
+
+option.CHROMA_ABER_STRENGTH=Сила хроматической аберрации
+
+option.WATER_ABSORPTION=Индекс поглощения воды
+
+option.WATER_TURBULENCE=Сила волн
+value.WATER_TURBULENCE.7.0=Очень низкая
+value.WATER_TURBULENCE.1.75=Низкая
+value.WATER_TURBULENCE.0.9=Средняя
+value.WATER_TURBULENCE.0.5=Высокая
+
+option.COLOR_SCHEME=Цветовая схема
+value.COLOR_SCHEME.0=Неземная
+value.COLOR_SCHEME.1=Новая шока
+value.COLOR_SCHEME.2=Шока
+value.COLOR_SCHEME.3=Классическая
+value.COLOR_SCHEME.4=Капитан
+value.COLOR_SCHEME.5=Психоделическая
+value.COLOR_SCHEME.6=Какао
+value.COLOR_SCHEME.7=Тестиго
+value.COLOR_SCHEME.99=Пользовательская
+
+option.LIGHT_SUNSET_COLOR_R=Свет заката R
+option.LIGHT_SUNSET_COLOR_G=Свет заката G
+option.LIGHT_SUNSET_COLOR_B=Свет заката B
+
+option.LIGHT_DAY_COLOR_R=Дневной свет R
+option.LIGHT_DAY_COLOR_G=Дневной свет G
+option.LIGHT_DAY_COLOR_B=Дневной свет B
+
+option.LIGHT_NIGHT_COLOR_R=Ночной свет R
+option.LIGHT_NIGHT_COLOR_G=Ночной свет G
+option.LIGHT_NIGHT_COLOR_B=Ночной свет B
+
+option.ZENITH_SUNSET_COLOR_R=Зенит заката R
+option.ZENITH_SUNSET_COLOR_G=Зенит заката G
+option.ZENITH_SUNSET_COLOR_B=Зенит заката B
+
+option.ZENITH_DAY_COLOR_R=Зенит дня R
+option.ZENITH_DAY_COLOR_G=Зенит дня G
+option.ZENITH_DAY_COLOR_B=Зенит дня B
+
+option.ZENITH_NIGHT_COLOR_R=Зенит ночи R
+option.ZENITH_NIGHT_COLOR_G=Зенит ночи G
+option.ZENITH_NIGHT_COLOR_B=Зенит ночи B
+
+option.HORIZON_SUNSET_COLOR_R=Горизонт заката R
+option.HORIZON_SUNSET_COLOR_G=Горизонт заката G
+option.HORIZON_SUNSET_COLOR_B=Горизонт заката B
+
+option.HORIZON_DAY_COLOR_R=Горизонт дня R
+option.HORIZON_DAY_COLOR_G=Горизонт дня G
+option.HORIZON_DAY_COLOR_B=Горизонт дня B
+
+option.HORIZON_NIGHT_COLOR_R=Горизонт ночи R
+option.HORIZON_NIGHT_COLOR_G=Горизонт ночи G
+option.HORIZON_NIGHT_COLOR_B=Горизонт ночи B
+
+option.WATER_COLOR_R=Цвет воды R
+option.WATER_COLOR_G=Цвет воды G
+option.WATER_COLOR_B=Цвет воды B
+
+option.NV_COLOR_R=Множитель ночного зрения R
+option.NV_COLOR_G=Множитель ночного зрения G
+option.NV_COLOR_B=Множитель ночного зрения B
+
+option.OMNI_TINT_CUSTOM=Общий оттенок
+
+option.AVOID_DARK_LEVEL=Яркость пещер
+
+option.NIGHT_BRIGHT=Ночная яркость
+
+option.V_CLOUDS=Облака
+value.V_CLOUDS.0=Ванильные
+value.V_CLOUDS.1=Объёмные стат.
+value.V_CLOUDS.2=Объёмные дин.
+
+option.CLOUD_VOL_STYLE=Вид объёмных облаков
+value.CLOUD_VOL_STYLE.0=Естественный
+value.CLOUD_VOL_STYLE.1=Блочный
+
+option.CLOUD_SPEED=Скорость облаков
+value.CLOUD_SPEED.0=Обычная
+value.CLOUD_SPEED.1=Ускоренная 1
+value.CLOUD_SPEED.2=Ускоренная 2
+
+option.END_CLOUDS=Облака в Энде
+
+option.CLOUD_STEPS_AVG=Отсчёты облаков
+
+option.BLOOM=Свечение
+
+option.COLOR_BLINDNESS=Цветовая слепота
+
+option.COLOR_BLIND_MODE=Тип ЦС
+value.COLOR_BLIND_MODE.0=Протанопия
+value.COLOR_BLIND_MODE.1=Дейтеранопия
+value.COLOR_BLIND_MODE.2=Тританопия
+
+option.DEBUG_MODE=Режим отладки
+
+option.BLOOM_SAMPLES=Пары отсчётов свечения
+
+option.BLACK_ENTITY_FIX=Исправление чёрных сущностей
+value.BLACK_ENTITY_FIX.0=Выкл
+value.BLACK_ENTITY_FIX.1=Вкл
+
+option.FOG_ACTIVE=Отображение тумана
+
+option.FOG_ADJUST=Интенсивность тумана
+value.FOG_ADJUST.20.0=Без тумана
+value.FOG_ADJUST.10.0=Сверхнизкая
+value.FOG_ADJUST.8.0=Очень низкая
+value.FOG_ADJUST.4.0=Низкая
+value.FOG_ADJUST.2.0=Средняя
+value.FOG_ADJUST.1.0=Высокая
+
+option.NETHER_FOG_DISTANCE=Дальность тумана в Незере
+value.NETHER_FOG_DISTANCE.0=По прорисовке
+value.NETHER_FOG_DISTANCE.1=Ванильная
+
+option.BLOCKLIGHT_TEMP=Температура света блоков
+value.BLOCKLIGHT_TEMP.0=Теплее
+value.BLOCKLIGHT_TEMP.1=Тёплая
+value.BLOCKLIGHT_TEMP.2=Жёлтая
+value.BLOCKLIGHT_TEMP.3=Бледно-жёлтая
+value.BLOCKLIGHT_TEMP.4=Белый свет
+
+option.sunPathRotation=Угол солнца
+
+option.USE_BASIC_SH=Базовый шейдер для пользовательских измерений
+
+option.MATERIAL_GLOSS=Глянцевость материалов
+
+option.DYN_HAND_LIGHT=Ложный динамический свет
+
+#Screens
+screen.ADVANCED_SCREEN=Дополнительно
+screen.ADVANCED_SCREEN.comment=Расширенные настройки.
+
+screen.COMPATIBILITY_SCREEN=Совместимость
+screen.COMPATIBILITY_SCREEN.comment=Настройки совместимости.
+
+screen.SHADOWS_SCREEN=Тени
+screen.SHADOWS_SCREEN.comment=Настройки теней.
+
+option.SHADOW_LOCK=Блокировка пикселей теней
+value.SHADOW_LOCK.0=Выкл
+value.SHADOW_LOCK.16=16x16
+value.SHADOW_LOCK.32=32x32
+value.SHADOW_LOCK.64=64x64
+value.SHADOW_LOCK.128=128x128
+value.SHADOW_LOCK.256=256x256
+
+screen.DOF_SCREEN=Глубина резкости
+screen.DOF_SCREEN.comment=Настройки глубины резкости.
+
+screen.AO_SCREEN=Окклюзия окружения
+screen.AO_SCREEN.comment=Настройки окклюзии окружения.
+
+screen.WATER_SCREEN=Вода
+screen.WATER_SCREEN.comment=Настройки воды.
+
+screen.POST_SCREEN=Пост-эффекты
+screen.POST_SCREEN.comment=Настройки пост-эффектов.
+
+screen.LIGHT_SCREEN=Свет
+screen.LIGHT_SCREEN.comment=Настройки света.
+
+screen.CLOUDS_SCREEN=Солнце и облака
+screen.CLOUDS_SCREEN.comment=Настройки солнца и облаков.
+
+screen.FOG_SCREEN=Туман
+screen.FOG_SCREEN.comment=Настройки тумана.
+
+screen.MOTION_BLUR_SCREEN=Размытие в движении
+screen.MOTION_BLUR_SCREEN.comment=Настройки размытия в движении.
+
+screen.ACCESIBILITY_SCREEN=Спец. возможности
+screen.ACCESIBILITY_SCREEN.comment=Настройки специальных возможностей.
+
+screen.CUSTOM_COLORS_SCREEN=Пользовательские цвета
+screen.CUSTOM_COLORS_SCREEN.comment=Настройки пользовательских цветов.
+screen.CUSTOM_COLORS_DAY=Дневные цвета
+screen.CUSTOM_COLORS_SUNSET=Цвета заката/рассвета
+screen.CUSTOM_COLORS_NIGHT=Ночные цвета
+screen.CUSTOM_COLORS_WATER=Цвет воды
+screen.CUSTOM_COLORS_NV=Цвет ночного зрения
+
+option.IMAGE_SHARPENING=Резкость изображения
+option.SHARPENING=Сила резкости
